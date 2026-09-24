@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>For You</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="stage">
+  <p class="eyebrow">a little something</p>
+  <h1>tap the seal to open</h1>
+
+  <div class="envelope-wrap" id="envWrap">
+    <div class="envelope" id="envelope">
+      <div class="env-back"></div>
+      <div class="env-body"></div>
+
+      <div class="letter-slot">
+        <div class="letter-card"></div>
+      </div>
+
+      <span class="paper-heart">
+        <svg viewBox="0 0 100 88" xmlns="http://www.w3.org/2000/svg">
+          <path d="M50 88C50 88 10 62 10 34C10 18 22 6 38 6C46 6 50 12 50 12C50 12 54 6 62 6C78 6 90 18 90 34C90 62 50 88 50 88Z" fill="currentColor"/>
+        </svg>
+      </span>
+
+      <div class="env-front"></div>
+      <div class="env-flap"></div>
+
+      <button class="seal" id="sealBtn" aria-label="Open the letter">
+        <span class="seal-heart">
+          <svg viewBox="0 0 100 88" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 88C50 88 10 62 10 34C10 18 22 6 38 6C46 6 50 12 50 12C50 12 54 6 62 6C78 6 90 18 90 34C90 62 50 88 50 88Z" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="seal-label">OPEN ME</span>
+      </button>
+    </div>
+  </div>
+
+  <p class="hint">go on, click it</p>
+  <button class="read-btn" id="readBtn">Read the Letter</button>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="sheet">
+    <!-- ✏️ Personalize this part — that's the whole point! -->
+
+    <h2>Hey love,</h2>
+    <p>
+I know things are not going well inbetween us.. I know you don't love me anymore but I really love you.... I just want to give it my all nd I'm trying everything... Idk just thinking about losing you makes me cry... I know I've done some shits that can't be undone... I'm really ashamed un sb ke liye... I hope tumhe dikhe ki mai change ho rha... I don't wanna lose you... I really love you... I really do..!! Thanks for everything jo tumne aj tk kiya mere liye... You're just perfect... Ik bhot glti ki h... But I promise mai apni har galti ko sudhaar lunga... Tumne bhot kiya mere liye... Now it's my turn.... Thanks for always loving me... Ugh I do care for you I do miss you I do miss your old self... I miss you loving me I miss every version of yours.... I just pray everyday ki sb theek ho jaye.... I love you more than anyone... Ik ab kuch phle jysa nhi h... Ik things are changing inbetween us... I hope sb theek ho jayega... I hope you'll love me again.... Ik tum comfortable nhi ho lekin mai prove kr dunga ki I'm not the guy I once was... Mai daalunga efforts... Bhot efforts daalunga... Har second assurance dunga... Ik bhot bimar ho tum... I wanted to see you I just wish everyday ki dekh pau..
+I wish sb phle jysa ho jaye... I can't live without you...i love you soo much...
+    </p>
+    <p>
+I wanted to say ki mai bhot khush tha tumhare sth... I want nothing I swear... Tumne jo bhi kiya mere liye utna syd hi koi krta... You matter to me... you're really important to me... Ugh sorry agr grammatical mistakes ho... Tumhe pta h meri english buri hai... I loved you pointing out my tiny mistakes... Bhot late realisation h ye syd... Jo bhi tumne mere liye kiya sb bhot mean krta meri life me... Tum bhot mean krti meri life me...I don't want ki tum ek lesson bnke reh jao meri life me... I want u to be a part of my life again.... Thoda time dena mujhe... Mai shi krunga jo kharab ho gya... Jo khtm hogya usko leke aaunga firse.... Jo kho gya usko dhoond k launga... I'll marry you I'll prove ki humara ralationship waste ni tha... I love you... Ugh thanks again merko ek chance Dene k liye... Mai jaan lga dunga iss relationship me... it's my promise to you..
+    </p>
+
+    <p class="sign">Only Yours</p>
+    <button class="close-btn" id="closeBtn">Close</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
